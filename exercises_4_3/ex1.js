@@ -2,7 +2,7 @@
 
 let n = 4;
 let linha = "";
-let symbol = "*";
+let symbol = "* ";
 
 for (let i=0; i<n; i++){
     linha += symbol;
