@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><strong>Curriculum</strong></h1>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <!--fullname-->
+            <label for="name">Full name:</label>
+            <input type="text" placeholder="Type your full name here:" required ="required" id="name" name="name" maxlength="40"><br><br>
+             <!--email-->
+            <label for="email">e-mail:</label>
+            <input type="text" placeholder="Type your e-mail here:" required="required" name="email"><br><br>
+             <!--CPF-->
+             <label for="cpf">CPF</label>
+             <input type="text" placeholder="Type your CPF here:" required ="required" id="cpf" name="cpf" maxlength="11"><br><br>
+              <!--adress-->
+            <label for="name">Adress:</label>
+            <input type="text" placeholder="Type your adress here:" required ="required" id="adress" name="adress" maxlength="200"><br><br>
+             <!--city-->
+             <label for="name">city:</label>
+             <input type="text" placeholder="Type your city here:" required ="required" id="city" name="city" maxlength="28"><br><br>
+             <!--state-->
+            <label for="state">State:</label>
+            <select name="state" id="state"></select><br><br>
+            <!--birthday-->
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <input type="submit" value="Submit">
+
+
+        </fieldset>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
